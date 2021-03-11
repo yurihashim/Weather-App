@@ -1,0 +1,206 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    background-color: rgb(229, 240, 247);
+}
+
+/* CSS for weatherApp.html */
+
+header {
+    margin: 70px; 
+
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(94, 89, 89);
+}
+
+a:hover {
+    cursor: pointer;
+    color: lightblue;
+}
+.message {
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 150px;
+    line-height: 50px;
+    color: rgb(94, 89, 89);
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    border-radius: 12px;
+    width: 150px;
+    height: 50px;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{ 
+    background-color:lightblue;
+    color: white; 
+    border: lightblue;
+}
+
+
+/* CSS for current.html */ 
+
+.topbar {
+    text-align: center;
+}
+
+.topbar button {
+    width: 90px;
+    height: 40px; 
+    font-size: 12px;
+}
+
+.nav {
+    margin-top: 0%;
+}
+
+.searchBox{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+input {
+    border-radius: 12px;
+    width: 250px; 
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:focus {
+    outline: none;
+}
+
+.info {
+    text-align: center;
+    margin-top: 200px;
+}
+
+.city {
+    display: inline-block;
+    font-size: 30px;
+    margin-right: 200px;
+}
+
+.date {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 200px;
+}
+
+.weatherInfo {
+    margin-top: 100px;
+    margin-bottom: 200px;
+    line-height: 130px;
+    font-size: 30px;
+}
+
+.weatherInfo .fa-sun {
+    color: orange; 
+    font-size: 9em;
+}
+
+.fa-temperature-high {
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+
+.fa-cloud-rain {
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+
+
+/* CSS for forecast.html */ 
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.container {
+    margin-top: 100px;
+    margin-bottom: 300px;
+    text-align: center;
+}
+
+.container .fa-sun {
+    font-size: 1em;
+    color: orange;
+}
+.container .fa-temperature-high{
+    font-size: 1em;
+}
+
+.container .fa-cloud-rain {
+    font-size: 1em;
+    color: rgb(77, 77, 231);
+}
+
+.info1 {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 30px;
+
+}
+.info2 {
+    display: inline-block;
+    margin-right: 30px;
+}
+   
+.info3 {
+    display: inline-block;
+    margin-right: 30px;
+
+}
+.info4 {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.info5 {
+    display: inline-block;
+    margin-right: 30px;
+}
+.info6 {
+    display: inline-block;
+    margin-right: 30px;
+}
+.info7{
+    display: inline-block;
+    margin-right: 0;
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 100px;
+}
+
+.dates {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+
+}
+

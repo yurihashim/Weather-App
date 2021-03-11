@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/5d98c05ec0.js" crossorigin="anonymous"></script>
+    <title>Weather App</title>
+</head>
+<body>
+
+    <header>
+        <a href = "file:///Users/yurihashim/Documents/weatherApp/weatherApp.html"><h1>Weather App</h1></a>
+    </header>    
+
+    <!-- put this center and make it simple and little bit small-->
+    <div class = topbar>
+        <div class = nav>
+            <a href="file:///Users/yurihashim/Documents/weatherApp/weatherApp.html"><button>HOME</button></a>
+            <a href="file:///Users/yurihashim/Documents/weatherApp/forecast.html"><button>FORECAST</button></a>
+        </div>
+
+        <div class="searchBox">
+            <form>
+                <input type="text" placeholder="Search..." autofocus>
+                <button type="search">SEARCH</button>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div class = info>
+
+        <!--Put city on the left and date on the right at the top of this page-->
+        <section class = "location">
+            <div class = "city">Vancouver</div>
+            <div class = "date">March 9th (Tue)</div>
+        </section>
+        
+        <!--I want these to be center-->
+        <ul class = "weatherInfo">
+            <!--make just the icon and temp bigger than chance of rain-->
+            <li class = "weather"><i class="fas fa-sun"></i></li>
+            <li class = "temp"><i class="fas fa-temperature-high"></i>11°C</li>
+            <li class = rainChance><i class="fas fa-cloud-rain"></i>0%</li>
+        </ul>
+
+
+    </div>
+
+
+    <script src = "weatherApp.js"></script>
+    
+</body>
+</html>
