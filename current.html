@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://kit.fontawesome.com/5d98c05ec0.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <title>Weather App</title>
 </head>
 <body>
@@ -22,33 +23,31 @@
 
         <div class="searchBox">
             <form>
-                <input type="text" placeholder="Search..." autofocus>
-                <button type="search">SEARCH</button>
+                <input class="search-bar" type="text" placeholder="Search..." autofocus>
+                <button type="button" id="search">SEARCH</button>
             </form>
         </div>
     </div>
 
 
-
-    <div class = info>
+    <div class = "info">
 
         <!--Put city on the left and date on the right at the top of this page-->
-        <section class = "location">
-            <div class = "city">Vancouver</div>
-            <div class = "date">March 9th (Tue)</div>
-        </section>
+        <div class = "location">
+            <div class = "cityName">Vancouver</div>
+        </div>
         
         <!--I want these to be center-->
         <ul class = "weatherInfo">
             <!--make just the icon and temp bigger than chance of rain-->
-            <li class = "weather"><i class="fas fa-sun"></i></li>
+            <li class = "weatherName"><i class="fas fa-sun"></i></li>
+            <li class ="weatherDesc">very cold</li>
             <li class = "temp"><i class="fas fa-temperature-high"></i>11°C</li>
-            <li class = rainChance><i class="fas fa-cloud-rain"></i>0%</li>
+            <li class = humid><i class="fas fa-cloud-rain"></i>0%</li>
         </ul>
 
 
     </div>
-
 
     <script src = "weatherApp.js"></script>
     

@@ -92,16 +92,10 @@ input {
     margin-top: 200px;
 }
 
-.city {
-    display: inline-block;
+.cityName {
     font-size: 30px;
-    margin-right: 200px;
-}
-
-.date {
-    display: inline-block;
-    font-size: 20px;
-    margin-left: 200px;
+    position:absolute;
+    margin-left: 150px;
 }
 
 .weatherInfo {
